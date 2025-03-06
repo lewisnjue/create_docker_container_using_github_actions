@@ -10,3 +10,7 @@ async def hello_home():
 @app.get('/hello')
 async def hello_hello():
     return {"messange":"hello again"}
+
+@app.get('/final')
+async def final_test():
+    return {"messange":"the final test"}
